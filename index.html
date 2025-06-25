@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kisah Kita</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar (sembunyi dulu) -->
+  <nav id="navbar" style="display: none;">
+    <ul>
+      <li><a href="#" onclick="tampilkanHalaman('ceritaKita')">Cerita</a></li>
+      <li><a href="#" onclick="tampilkanHalaman('tanggalJadian')">Tanggal</a></li>
+      <li><a href="#" onclick="tampilkanHalaman('laguKita')">Lagu</a></li>
+      <li><a href="#" onclick="tampilkanHalaman('album')">Album</a></li>
+    </ul>
+  </nav>
+
+  <header id="judul">Kisah Cinta Kita 💖</header>
+
+  <div class="container">
+
+    <!-- Kata Sambutan -->
+    <div class="kata-sambutan" id="sambutan">
+      <h2>Selamat Happy Anniversary 4 Tahun 1 Bulan 💖</h2>
+      <p>
+        Sayangkuu... Cintakuu... Hidupkuu... I LOVE YOU 😘  
+        Tekan tombol di bawah ini ya... dan mari kita buka lembar-lembar kisah cinta kita berdua 💖
+      </p>
+      <button onclick="mulaiKisah()">Tentang Kita</button>
+    </div>
+
+    <!-- Semua Konten Lain -->
+    <div id="kontenKita" style="display: none;">
+
+      <!-- Cerita Kita -->
+      <div class="section" id="ceritaKita">
+        <h2>Cerita Kita 📖</h2>
+        <p>
+          Hai SAYANGKUU... yang setiap harinya selalu aku pikirkan, yang senyumnya tinggal di ingatanku,  
+          dan yang hatinya dengan indahnya memilih untuk tetap bersamaku.  
+          Tak pernah ku duga, dari sekadar perkenalan biasa, kita bisa menjadi luar biasa.  
+          Kini, kamu bukan hanya bagian dari hariku — kamu adalah alasanku bangun dengan semangat setiap pagi.
+          Aku tahu, cinta itu bukan tentang kata-kata manis atau janji yang megah.  
+          Cinta itu tentang hadir. Tentang bertahan saat badai datang. Dan kamu... adalah buktinya.  
+          Di setiap ragu, kamu jadi yakin. Di setiap lelah, kamu jadi tenang. Di setiap sedih, kamu tetap menyemangatiku tanpa banyak tanya.
+          Halaman ini adalah caraku menyimpan semua kenangan kecil kita:  
+          tanggal-tanggal yang tidak akan pernah kulupa, cerita yang selalu aku ulang di dalam kepala.  
+          Semua ini untuk kamu, karena kamu layak diabadikan dengan cara yang paling indah.
+          Aku sadar kita nggak sempurna. Kadang salah paham, kadang ego bicara duluan.  
+          Tapi lihat kita sekarang... masih di sini. Masih saling genggam, walau dunia sering mencoba melepaskan.
+          Aku nulis ini bukan karena aku jago merangkai kata, tapi karena aku ingin kamu tahu:  
+          kamu adalah rumah paling nyaman yang pernah aku temui. Terima kasih ya...  
+          Empat tahun kita bareng… banyak banget yang udah dilalui. Dari ketawa bareng, saling peluk, sampai ribut kecil.
+          Banyak orang mungkin nggak tahu perjuangan kita. Yang tahu cuma kita berdua, gimana rasanya bertahan meski banyak yang meragukan.  
+          Tapi kamu tetap di sini. Aku juga.  
+          Aku nggak tahu hidup bakal bawa kita ke mana nanti. Tapi yang aku tahu... aku masih pengen bareng kamu.  
+          Nemenin kamu pas kamu capek, pas harimu berat, jadi tempat kamu pulang... bukan ke rumah, tapi ke pelukan.  
+          Tempat kamu bisa nangis tanpa takut, tempat kamu bisa tumbuh, dan jadi diri sendiri.
+          Dan semoga... aku juga bisa jadi rumah buat kamu.  
+          Yang nggak cuma indah saat cerah, tapi juga teduh saat hujan.
+        </p>
+        <p class="kata">
+          "Cinta kita bukan sempurna, tapi selalu saling berusaha. Dan itu yang membuatnya indah."
+        </p>
+      </div>
+
+      <!-- Tanggal -->
+      <div class="section" id="tanggalJadian">
+        <h2>Tanggal Spesial Kita 🗓️</h2>
+        <p>
+          Happy Anniversary 4 Tahun 1 Bulan, Sayangku 💖🎉<br><br>
+          Nggak terasa ya, kita udah sejauh ini... dan aku bersyukur banget masih bisa bareng kamu sampai detik ini.<br><br>
+          Sayang...<br>
+          Tetaplah jadi laki-laki yang aku kenal dari awal.<br>
+          Laki-laki yang selalu jadi rumah buat perempuan satu ini.<br>
+          Yang selalu sabar, lembut, dan nggak pernah lelah membimbing aku jadi versi diriku yang lebih baik lagi.<br><br>
+          Terima kasih, ya...<br>
+          Udah sabar banget menghadapi semua sikap dan tingkahku.<br>
+          Maaf kalau aku sering marah-marah, suka ngambek, atau kadang bikin kamu bingung sendiri.<br>
+          Aku tahu, aku nggak selalu mudah untuk dimengerti... tapi kamu selalu ada, selalu ngerti, selalu peluk aku tanpa banyak tanya.<br><br>
+          Aku sadar, perjalanan kita masih panjang banget.<br>
+          Tapi aku mau kita hadapi semuanya sama-sama. Kamu dan aku, kita berdua, sampai kapan pun.<br><br>
+          Aku sayang banget sama kamu...<br>
+          I LOVE YOU, SAYANGKU 💜🤗<br>
+          Hari ini, besok, dan selamanya — tetaplah jadi rumah terindah buat aku. 💞
+        </p>
+        <p class="kata">"Dari awal Mei sampai hari ini... kamu tetap orang yang selalu aku pilih, lagi dan lagi."</p>
+      </div>
+
+      <!-- Lagu -->
+      <div class="section" id="laguKita">
+        <h2>Lagu Kita 🎶</h2>
+        <p>Lagu ini tuh kayak gambaran perasaan yang nggak bisa aku ungkap pakai kata-kata.</p>
+        <iframe style="border-radius:12px"
+          src="https://open.spotify.com/embed/track/2GUp5FWzjfs422g45y16HQ"
+          width="100%" height="152" frameborder="0" allowfullscreen=""
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy">
+        </iframe>
+        <p>🎧 Judul: <strong>Bersamamu</strong><br>🎤 Penyanyi: <strong>Jaz</strong><br>📅 Dirilis: 2023</p>
+      </div>
+
+ <!-- Album -->
+<div class="section" id="album">
+  <h2>Album Kenangan 📸</h2>
+  <p>Foto dan video ini adalah potongan waktu yang selalu ingin aku simpan. Karena semua tentang kita... selalu layak diabadikan.</p>
+
+  <!-- Galeri Foto -->
+  <div class="galeri">
+    <img src="foto1.jpg" alt="Foto 1">
+    <img src="foto2.jpg" alt="Foto 2">
+    <img src="foto3.jpg" alt="Foto 3">
+  </div>
+
+  <!-- Galeri Video -->
+  <div class="video-galeri">
+    <video controls width="100%" style="margin-bottom: 10px; border-radius: 12px;">
+      <source src="video1.mp4" type="video/mp4">
+      Browser kamu tidak mendukung video.
+    </video>
+    <video controls width="100%" style="margin-bottom: 10px; border-radius: 12px;">
+      <source src="video2.mp4" type="video/mp4">
+      Browser kamu tidak mendukung video.
+    </video>
+    <video controls width="100%" style="margin-bottom: 10px; border-radius: 12px;">
+      <source src="video3.mp4" type="video/mp4">
+      Browser kamu tidak mendukung video.
+    </video>
+  </div>
+
+  <p class="kata">"Semua kenangan ini bukan cuma tersimpan di layar, tapi juga di dalam hati."</p>
+</div>
+
+
+  <!-- Footer -->
+  <footer>
+    <p>💑 Akwal (Akmal dan wana).</p>
+    <p>© 2025 Kisah Kita — Kita Selamanya 💑</p>
+  </footer>
+
+  <!-- Script -->
+<script>
+  function mulaiKisah() {
+    document.getElementById("sambutan").style.display = "none";
+    document.getElementById("navbar").style.display = "block";
+    document.getElementById("kontenKita").style.display = "block";
+    tampilkanHalaman("ceritaKita", document.querySelector('nav a'));
+  }
+
+  function tampilkanHalaman(id, el) {
+    document.querySelectorAll(".section").forEach(el => el.style.display = "none");
+    document.getElementById(id).style.display = "block";
+    document.querySelectorAll("nav a").forEach(link => link.classList.remove("active"));
+    if (el) el.classList.add("active");
+  }
+</script>
+
+
+</body>
+</html>

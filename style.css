@@ -1,0 +1,164 @@
+/* Reset dasar */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: linear-gradient(to bottom, #f8f0ff, #f3e6ff); /* gradasi ungu muda */
+  color: #46295a;
+  padding-bottom: 80px;
+}
+
+/* Header Judul */
+header#judul {
+  background-color: #cda5f7;
+  color: white;
+  font-size: 2.2rem;
+  text-align: center;
+  padding: 20px;
+  border-radius: 0 0 30px 30px;
+  box-shadow: 0 4px 10px rgba(109, 52, 136, 0.2);
+}
+
+/* Navbar */
+nav {
+  background-color: #e9d9fc;
+  padding: 15px 0;
+  border-bottom: 2px solid #cfb3f1;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 15px;
+}
+
+nav a {
+  color: #552c74;
+  background: transparent;
+  padding: 10px 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+  background-color: white;
+  color: #7e3f98;
+  box-shadow: 0 2px 6px rgba(130, 66, 157, 0.3);
+}
+
+/* Container */
+.container {
+  max-width: 860px;
+  margin: auto;
+  padding: 30px 20px;
+  background-color: #ffffff;
+  border-radius: 18px;
+  margin-top: 20px;
+  box-shadow: 0 8px 20px rgba(177, 135, 214, 0.1);
+}
+
+/* Kata Sambutan */
+.kata-sambutan {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.kata-sambutan h2 {
+  color: #7b4298;
+  margin-bottom: 15px;
+}
+
+.kata-sambutan p {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.kata-sambutan button {
+  margin-top: 20px;
+  background-color: #a866dd;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.kata-sambutan button:hover {
+  background-color: #944bd2;
+}
+
+/* Section */
+.section {
+  display: none;
+}
+
+.section h2 {
+  color: #6e3392;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.section p {
+  line-height: 1.7;
+  margin-bottom: 12px;
+}
+
+.kata {
+  text-align: center;
+  font-style: italic;
+  color: #874eb5;
+  margin-top: 20px;
+}
+
+/* Galeri Foto */
+.galeri {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.galeri img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(108, 54, 134, 0.1);
+}
+
+/* Galeri Video (Sejajar) */
+.video-galeri {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.video-galeri video {
+  width: 30%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(139, 87, 165, 0.1);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #f2e3ff;
+  color: #6b3c91;
+  padding: 20px 10px;
+  margin-top: 40px;
+  font-size: 14px;
+  border-top: 2px solid #d7c2f1;
+}
